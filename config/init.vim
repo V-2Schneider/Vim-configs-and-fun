@@ -12,6 +12,12 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'ryanoasis/vim-devicons'
 
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
